@@ -7,7 +7,7 @@ fn main() {
         result.push(rotate_dial(i.clone()));
     }
 
-    println!("Answer is {:?}", result);
+    println!("Answer is nu{:?}", result);
 }
 
 fn rotate_dial(mut rotations: Vec<&str>) -> i32{
